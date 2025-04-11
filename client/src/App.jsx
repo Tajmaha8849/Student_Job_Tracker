@@ -9,7 +9,7 @@ function App() {
   const [statusFilter, setStatusFilter] = useState('All');
   const [sortOrder, setSortOrder] = useState('desc');
 
-  const API_URL = 'https://student-job-tracker-94z2.vercel.app/api';
+  const API_URL = 'https://student-job-tracker-3-0eow.onrender.com/api';
 
   useEffect(() => {
     fetchJobs();
